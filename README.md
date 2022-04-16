@@ -1,1 +1,1 @@
-# Sparse_Visualizer
+Simple script to visualize sparse matricies
