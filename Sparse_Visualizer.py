@@ -5,6 +5,7 @@ def print_matrix(matrix : list):
     for row in matrix:
         print(row)
 
+# Returns full matrix as 2D float64 array
 def read_CSR(filename: str):
     matrix = []
     
@@ -39,6 +40,7 @@ def read_CSR(filename: str):
     
     return matrix
 
+# Returns bool matrix: True at [x,y] if [x,y]-element != 0, else False
 def read_CSR_bool(filename : str):
     matrix = []
     
@@ -74,7 +76,7 @@ def read_CSR_bool(filename : str):
     input_file.close()
     return matrix    
     
-
+# Returns tuple with pure CSR representation
 def read_CSR_components(filename : str):
     matrix = []
     
